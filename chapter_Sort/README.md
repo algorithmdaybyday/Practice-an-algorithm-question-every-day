@@ -54,17 +54,21 @@
 		
 ### 希尔排序
 - 算法思想
+
 ![希尔排序.png](http://upload-images.jianshu.io/upload_images/1156494-80700e24aed3d83e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 希尔排序的算法思想：将待排序数组按照步长gap进行分组，然后将每组的元素利用直接插入排序的方法进行排序；每次将gap折半减小，循环上述操作；当gap=1时，利用直接插入，完成排序。
 同样的：从上面的描述中我们可以发现：希尔排序的总体实现应该由三个循环完成：
   1. 第一层循环：将gap依次折半，对序列进行分组，直到gap=1
   2. 第二、三层循环：也即直接插入排序所需要的两次循环。具体描述见上。
+
 - 代码实现
 
 ### 简单选择排序
 - 算法思想
 
 ![简单选择排序.gif](http://upload-images.jianshu.io/upload_images/1156494-25821a7cb5aec881.gif?imageMogr2/auto-orient/strip)
+
 简单选择排序的基本思想：比较+交换。
   1. 从待排序序列中，找到关键字最小的元素；
   2.  如果最小元素不是待排序序列的第一个元素，将其和第一个元素互换；
@@ -86,11 +90,15 @@
 堆排序可以按照以下步骤来完成：
   1. 首先将序列构建称为大顶堆；
 （这样满足了大顶堆那条性质：位于根节点的元素一定是当前序列的最大值）
+
 ![构建大顶堆.png](http://upload-images.jianshu.io/upload_images/1156494-596eee6397817ca2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
   2. 取出当前大顶堆的根节点，将其与序列末尾元素进行交换；
 （此时：序列末尾的元素为已排序的最大值；由于交换了元素，当前位于根节点的堆并不一定满足大顶堆的性质）
   3. 对交换后的n-1个序列元素进行调整，使其满足大顶堆的性质；
+
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/1156494-7e5c63ce1ed48ebf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
   4. 重复2.3步骤，直至堆中只有1个元素为止
 
 * 代码实现：
@@ -99,6 +107,7 @@
 - 算法思想
 
 ![冒泡排序.gif](http://upload-images.jianshu.io/upload_images/1156494-fef2b2e3edc03289.gif?imageMogr2/auto-orient/strip)
+
 冒泡排序思路比较简单：
   1. 将序列当中的左右元素，依次比较，保证右边的元素始终大于左边的元素；
 （ 第一轮结束后，序列最后一个元素一定是当前序列的最大值；）
