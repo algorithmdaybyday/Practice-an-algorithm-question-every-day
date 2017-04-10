@@ -29,6 +29,7 @@ class Tree {
 * 树为二分树结构
 *  对任意节点n来说 n左侧所有子节点（descendents）的值小于等于n右侧所有子节点的值
 
+#### [Leetcode 98. 证明二分搜索树合理](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/validBST.java)
 ## 树遍历方法
 ### 1. 中序遍历
 ```java
@@ -61,7 +62,12 @@ void postOrderTraversal(TreeNode node){
 }
 ```
 ## 树类问题实例
-### 1. 
+### 大部分树类问题可以通过递归思想解决
+#### [Leetcode 226 旋转二分树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/invertTree.java)
+#### [Leetcode 104 二分树最大深度](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/maxDepth.java)
+#### [Leetcode 100 检查相同二分树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/isSameTree.java)
+#### [Leetcode 173 二分搜索树遍历器设计](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstIterator.java)
+
 ## 参考（Reference）
 Cracking the Coding Interview 189 Programming Questions & Solutions by  Gayle Laakmann Mcdowell, Chapter 4, "Trees and Graphs", p100
 
