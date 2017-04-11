@@ -62,11 +62,21 @@ void postOrderTraversal(TreeNode node){
 }
 ```
 ## 树类问题实例
-### 大部分树类问题可以通过递归思想解决
-#### [Leetcode 226 旋转二分树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/invertTree.java)
-#### [Leetcode 104 二分树最大深度](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/maxDepth.java)
-#### [Leetcode 100 检查相同二分树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/isSameTree.java)
-#### [Leetcode 173 二分搜索树遍历器设计](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstIterator.java)
+### 通过递归解决类问题
+
+#### [Leetcode 100 检查相同的二分树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/isSameTree.java)
+#### [Leetcode 104 二分树的最大深度](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/maxDepth.java)
+#### [Leetcode 110 检查平衡的二分树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/balancedBinaryTree.java)
+#### [Leetcode 124 二分树最大路径和](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstMaxPathSum.java)
+#### [Leetcode 226 旋转二分树 (Invert Binary Tree)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/invertTree.java)
+#### [Leetcode 235 二分搜索树的最低共同节点 (Lowest Common Ancestor of a Binary Tree)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/lowestCommonAncestor.java)
+#### [Leetcode 257 二分树所有路径](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstPaths.java)
+### 通过修改遍历方法解决类问题
+#### [Leetcode 102 二分树层序遍历 (Level Order Traversal)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstLevelOrderTraversal.java)
+#### [Leetcode 173 二分搜索树遍历器设计 (Binary Search Tree Iterator)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstIterator.java)
+
+### 通过动态规划解决类问题
+#### [Leetcode 96 唯一二分搜索树 (Unique Binary Search Trees)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/uniqueBST.java)
 
 ## 参考（Reference）
 Cracking the Coding Interview 189 Programming Questions & Solutions by  Gayle Laakmann Mcdowell, Chapter 4, "Trees and Graphs", p100
