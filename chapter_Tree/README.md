@@ -65,6 +65,7 @@ void postOrderTraversal(TreeNode node){
 ### 通过递归解决类问题
 
 #### [Leetcode 100 检查相同的二分树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/isSameTree.java)
+#### [Leetcode 101 平衡树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/symmetricTree.java)
 #### [Leetcode 104 二分树的最大深度](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/maxDepth.java)
 #### [Leetcode 110 检查平衡的二分树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/balancedBinaryTree.java)
 #### [Leetcode 124 二分树最大路径和](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstMaxPathSum.java)
@@ -74,7 +75,7 @@ void postOrderTraversal(TreeNode node){
 ### 通过修改遍历方法解决类问题
 #### [Leetcode 102 二分树层序遍历 (Level Order Traversal)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstLevelOrderTraversal.java)
 #### [Leetcode 173 二分搜索树遍历器设计 (Binary Search Tree Iterator)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstIterator.java)
-
+#### [Leetcode 513 寻找树底层最左值](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/findBottomLeftValue.java)
 ### 通过动态规划解决类问题
 #### [Leetcode 96 唯一二分搜索树 (Unique Binary Search Trees)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/uniqueBST.java)
 

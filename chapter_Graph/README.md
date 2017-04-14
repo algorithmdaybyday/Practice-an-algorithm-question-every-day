@@ -23,18 +23,49 @@ class Node {
 	public Node[] children;
 }
 ```
-####图定义和树类型定义的区别在于，图中无法保证从任意一个节点出发，能到达其他全部节点。
+#### 图定义和树类型定义的区别在于，图中无法保证从任意一个节点出发，能到达其他全部节点。
 
 ### 相邻矩阵
 ####另一种表达图的方式是使用边长为节点数N的矩形（尺寸为N*N）。每个矩形元素存储一个boolean值用来判断相对应的两个节点是否相接。 matrix[i][j] 表示一条连接节点 i 与节点 j 的边是否存在。
 
-##图搜索
-###深度优先搜索（Depth-First Search or DFS）
+## 图搜索
+### 深度优先搜索（Depth-First Search or DFS）
 取任意一个节点为根节点出发并优先探索每一条节点枝的所有节点， 故称为深度优先。
-###广度优先搜索 (Breadth-First Search or BFS)
+####伪码
+```java
+void search(Node root){
+	if(root == null) return;
+	visit(root);
+	root.visit == true;
+	for each (Node n in root.adjacent){
+		if(n.visited == false){
+		search(n);
+		}
+	}
+}
+```
+### 广度优先搜索 (Breadth-First Search or BFS)
 取任意一个节点为根节点出发并优先探索每一个节点所相邻的所有节点， 故称为广度优先。
-
+```java
+void search(Node root){
+	Queue queue = new Queue();
+	root.mark = true;
+	queue.enqueue(root);
+	while(!queue.isEmpty()){
+		Node r = queue.dequeue();
+		visit(r);
+		for each(Node n in r.adjacent){
+			if(n.marked == false){
+				n.marked == true;
+				queue.enqueue(n);
+				}
+			}
+		}
+	}
+```
+#### [Leetcode 513 寻找树底层最左值](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/findBottomLeftValue.java)
 
 ## 参考（Reference）
 Cracking the Coding Interview 189 Programming Questions & Solutions by  Gayle Laakmann Mcdowell, Chapter 4, "Trees and Graphs", p100
+
 
