@@ -8,14 +8,14 @@
 * 每个子节点有零或不为零个子节点， 以此类推
 
 ### 节点定义
-```java 
+```java
 class Node {
 	public String name;
 	public Node[] Children;
 }
 ```
 ### 树定义
-```java 
+```java
 class Tree {
 	public Node root;
 }
@@ -68,15 +68,20 @@ void postOrderTraversal(TreeNode node){
 #### [Leetcode 101 平衡树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/symmetricTree.java)
 #### [Leetcode 104 二分树的最大深度](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/maxDepth.java)
 #### [Leetcode 110 检查平衡的二分树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/balancedBinaryTree.java)
+#### [Leetcode 112 路径和](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/pathSum.java)
+#### [Leetcode 116 连接树每个左节点到对应右边的节点](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/populatingNextRight.java)
 #### [Leetcode 124 二分树最大路径和](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstMaxPathSum.java)
 #### [Leetcode 222 完整树节点数 ](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/countNodes.java)
 #### [Leetcode 226 旋转二分树 (Invert Binary Tree)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/invertTree.java)
 #### [Leetcode 235 二分搜索树的最低共同节点 (Lowest Common Ancestor of a Binary Tree)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/lowestCommonAncestor.java)
 #### [Leetcode 257 二分树所有路径](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstPaths.java)
+#### [Leetcode 297 树的序列展开与重建](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/serializeTree.java)
 ### 通过修改遍历方法解决类问题
+#### [Leetcode 99 恢复二分搜索树 (In Order Traversal)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/recoverBST.java)
 #### [Leetcode 102 二分树层序遍历 (Level Order Traversal)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstLevelOrderTraversal.java)
 #### [Leetcode 105 数列前序中序建造二分树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/orderBuildTree.java)
 #### [Leetcode 108 正序数列转化为二分搜索树](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/sortedArrayToBST.java)
+#### [Leetcode 114 二分树平展为链表 (Post Order Traversal)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/flattenTree.java)
 #### [Leetcode 173 二分搜索树遍历器设计 (Binary Search Tree Iterator)](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/bstIterator.java)
 #### [Leetcode 513 寻找树底层最左值](https://github.com/algorithmdaybyday/Practice-an-algorithm-question-every-day/blob/master/chapter_Tree/leetcode/findBottomLeftValue.java)
 ### 通过动态规划解决类问题
@@ -84,5 +89,3 @@ void postOrderTraversal(TreeNode node){
 
 ## 参考（Reference）
 Cracking the Coding Interview 189 Programming Questions & Solutions by  Gayle Laakmann Mcdowell, Chapter 4, "Trees and Graphs", p100
-
-
