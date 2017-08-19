@@ -7,25 +7,23 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
-        List<List<Integer>> result = new LinkedList<List<Integer>>();
-        List<Integer> currentResult = new LinkedList<Integer>();
-        pathSum(root, sum, currentResult, result);
-        return result;
+        List<List<Integer>>res = new ArrayList<List<Integer>>();
+        List<Integer> currentList = new ArrayList<>();
+        helper(root, sum, res, currentList);
+        return res;
     }
     
-    public void pathSum(TreeNode root, int sum, List<Integer> currentResult, List<List<Integer>>result){
-        if(root == null) return;
-        currentResult.add(new Integer(root.val));
-        if(root.left == null && root.right == null && sum == root.val) {
-            result.add(new LinkedList(currentResult));
-            currentResult.remove(currentResult.size() - 1 );
-            return;
-        } else {
-            pathSum(root.left, sum - root.val, currentResult, result);
-            pathSum(root.right, sum - root.val, currentResult, result);
+    public void helper(TreeNode node, int sum, List<List<Integer>> res, List<Integer> currentList){
+        if(node==null) return;
+        currentList.add(node.val);
+        if(node.left == null && node.right == null && node.val == sum) {
+            res.add(new ArrayList(currentList));
+        }else{
+            helper(node.left, sum - node.val, res, currentList);
+            helper(node.right, sum - node.val, res, currentList);
         }
-        	currentResult.remove(currentResult.size() - 1);
+        currentList.remove(currentList.size() - 1);
     }
 }
