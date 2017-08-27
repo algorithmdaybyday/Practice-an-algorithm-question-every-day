@@ -1,5 +1,6 @@
-public int maximalReactangle(char[][] matrix) {
-	if (maxtrix == null || matrix.legnth == 0) {
+class Solution {
+    public int maximalRectangle(char[][] matrix) {
+        if (matrix == null || matrix.length == 0) {
 		return 0;
 	}
 	int m = matrix.length;
@@ -41,5 +42,5 @@ public int maximalReactangle(char[][] matrix) {
 			maxA = Math.max(maxA, (right[j] - left[j] + 1)*height[j]);
 	}
 	return maxA;
-
+    }
 }
